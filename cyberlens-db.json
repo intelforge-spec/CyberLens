@@ -1,0 +1,1512 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "username": "admin",
+      "passwordHash": "$2b$10$VWiJIie5HNU819fo1D1eCO8lBm58b/7fISEPwLDImzKNFkP.a4WWS",
+      "role": "Admin",
+      "createdAt": "2026-06-06T13:41:05.095Z"
+    },
+    {
+      "id": "usr_analyst",
+      "username": "analyst",
+      "passwordHash": "$2b$10$VWiJIie5HNU819fo1D1eCOg4U1QDEVeNWvkGkZ5ObIALLOgwwTfgy",
+      "role": "Analyst",
+      "createdAt": "2026-06-06T13:41:05.190Z"
+    },
+    {
+      "id": "usr_viewer",
+      "username": "viewer",
+      "passwordHash": "$2b$10$VWiJIie5HNU819fo1D1eCOix31sd4sMSwdo3hsBamxu18FJklmAfi",
+      "role": "Viewer",
+      "createdAt": "2026-06-06T13:41:05.296Z"
+    },
+    {
+      "id": "usr_10ee14bf",
+      "username": "analyst1",
+      "passwordHash": "$2b$10$kqOh9EcaxbYk1aTKA00a7.Ai93HMH3Oh5eiiNS.nhVsz9ikpt5Aua",
+      "role": "Analyst",
+      "createdAt": "2026-06-06T14:00:36.795Z"
+    }
+  ],
+  "integrations": [
+    {
+      "id": "abuseipdb",
+      "name": "AbuseIPDB IP Reputation",
+      "apiKeyEncrypted": "687c8477418d01927efad13dbe3eeced:1ff8950d6296d6e05581b3a4c15130c4769bb7c4e7d724a92734488f4499615f92f3787418891c69a019c15e037af12c42231684ddbced7af263055483916cdd14845d41e4209a7fa2a3c978d14d293ecde01fcb4ea5d98dae267cb6d3ecd3d3",
+      "status": "Connected",
+      "lastTestTime": "2026-06-06T13:44:09.390Z"
+    },
+    {
+      "id": "alienvault",
+      "name": "AlienVault OTX Threat Feed",
+      "apiKeyEncrypted": "cdd5d808ed3f42fdf92e294d1fcc8d4a:fa96fe76227c51d910db9631e253d7947037a1cf7b5a99d88c2953bff999ec503729f904ec98b1a5d1170c8e088a6f03b07bcd14c547ae8ecf0a0e4e42d3dc4beec965e2ddc4bd5a1f07f4a0269774de",
+      "status": "Connected",
+      "lastTestTime": "2026-06-06T13:45:10.925Z"
+    },
+    {
+      "id": "malwarebazaar",
+      "name": "MalwareBazaar Binary Repository",
+      "apiKeyEncrypted": "b0edca321b1878aefb598222a586fc06:9a0ae2aeb8f7aa9c6f32dd203e1f9acd792603905a585cd9fded60e3a6b06b5977b61e8c2b2b84b21eb795e4c0652b314fb10cdccf0afb9b178e9ae5baaa1b1c",
+      "status": "Connected",
+      "lastTestTime": "2026-06-06T13:48:13.155Z"
+    },
+    {
+      "id": "urlhaus",
+      "name": "URLHaus Phishing Directory",
+      "apiKeyEncrypted": "8996aa75e2e8ee249a8c8e93a9133f1d:484517d7fba5b2adc1e0a230a494d76b67814a52111c10ba9e071916dc86d5d1a7e76e26f8d0cb1a107aae7c4e01c04736abf39bdc28abf6e8fe7b0da13cb420",
+      "status": "Connected",
+      "lastTestTime": "2026-06-06T13:49:34.341Z"
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal Global Reputation",
+      "apiKeyEncrypted": "336bb1aa16d0392fff0d5e58238135ce:9b313ec10dbce2f18923fdbcbc265193d323352c1be9afc181a815cdb46844f4ee64f75ade2f56d27e70629c73c85f107dcf7fb50f8d6b6dacd3a39b3d48396141160fbae591b7f20ddace4a0da622b4",
+      "status": "Connected",
+      "lastTestTime": "2026-06-06T13:44:39.878Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_88e0a764f647393a",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T08:22:51.986Z"
+    },
+    {
+      "id": "log_7b786cd750274212",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T08:22:51.950Z"
+    },
+    {
+      "id": "log_e0f8ec913580733a",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T06:17:09.917Z"
+    },
+    {
+      "id": "log_75fc07f743366f06",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T06:17:09.833Z"
+    },
+    {
+      "id": "log_876556ee244fb5b1",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T06:13:57.265Z"
+    },
+    {
+      "id": "log_cc6f75ec41e166f1",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T06:13:57.225Z"
+    },
+    {
+      "id": "log_149699d8aadc3bf2",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T06:13:11.103Z"
+    },
+    {
+      "id": "log_9f58853261fc3c59",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-13T06:13:11.068Z"
+    },
+    {
+      "id": "log_aa89fac51ede48c0",
+      "username": "admin",
+      "role": "Admin",
+      "action": "USER_LOGIN",
+      "ipAddress": "127.0.0.1",
+      "details": "Sesi masuk berhasil diotorisasi.",
+      "timestamp": "2026-06-13T06:13:10.983Z"
+    },
+    {
+      "id": "log_34aa781883db6403",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_SYNC",
+      "ipAddress": "127.0.0.1",
+      "details": "Memicu sinkronisasi manual Newswire secara real-time. Menambahkan 0 artikel siber baru.",
+      "timestamp": "2026-06-11T15:47:14.423Z"
+    },
+    {
+      "id": "log_5b920200b8fe573b",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:46:58.043Z"
+    },
+    {
+      "id": "log_f96108917b50b54e",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:46:58.002Z"
+    },
+    {
+      "id": "log_812132defef598b3",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:46:22.561Z"
+    },
+    {
+      "id": "log_5edfbee64dedea72",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:46:22.519Z"
+    },
+    {
+      "id": "log_0ad308930c9ec525",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_SYNC",
+      "ipAddress": "127.0.0.1",
+      "details": "Memicu sinkronisasi manual Newswire secara real-time. Menambahkan 0 artikel siber baru.",
+      "timestamp": "2026-06-11T15:28:20.898Z"
+    },
+    {
+      "id": "log_520e6cc428448565",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:28:11.142Z"
+    },
+    {
+      "id": "log_b98fb40577148c64",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:28:11.105Z"
+    },
+    {
+      "id": "log_a03156f978bdfd83",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:26:50.548Z"
+    },
+    {
+      "id": "log_437372f68220aaeb",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:26:50.514Z"
+    },
+    {
+      "id": "log_cf1c68aa00e5b37a",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:26:01.134Z"
+    },
+    {
+      "id": "log_a30a2dc7ce209dbb",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:26:01.095Z"
+    },
+    {
+      "id": "log_6ef358079508ea98",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:24:15.813Z"
+    },
+    {
+      "id": "log_5785af65bd010b38",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:24:15.771Z"
+    },
+    {
+      "id": "log_bff7af21bf98c0cb",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:24:01.845Z"
+    },
+    {
+      "id": "log_5c85ee91b62612ce",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:24:01.804Z"
+    },
+    {
+      "id": "log_d2a72635c0a0ee50",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:23:50.850Z"
+    },
+    {
+      "id": "log_0395ab5b3da0554a",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:23:50.802Z"
+    },
+    {
+      "id": "log_ac8961826b250d96",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:21:32.005Z"
+    },
+    {
+      "id": "log_f48929b2c0132dae",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:21:31.959Z"
+    },
+    {
+      "id": "log_03535c4142c718f3",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:21:06.357Z"
+    },
+    {
+      "id": "log_c62013cd4f18108b",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:21:06.323Z"
+    },
+    {
+      "id": "log_a35bd4d23181afee",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:19:42.001Z"
+    },
+    {
+      "id": "log_1f953c67dcc938d4",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:19:41.962Z"
+    },
+    {
+      "id": "log_beb625ff44e005c5",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:19:26.351Z"
+    },
+    {
+      "id": "log_8a06376e959f4004",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:19:26.314Z"
+    },
+    {
+      "id": "log_372506ef997a1039",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:13:55.155Z"
+    },
+    {
+      "id": "log_1088087e2627e4a9",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:13:55.110Z"
+    },
+    {
+      "id": "log_e3f25b4948e18812",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:12:40.178Z"
+    },
+    {
+      "id": "log_2b3a436cf1eed991",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:12:40.141Z"
+    },
+    {
+      "id": "log_ed3455b37dac9db6",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:09:00.067Z"
+    },
+    {
+      "id": "log_10fa7536ca2d029d",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:09:00.022Z"
+    },
+    {
+      "id": "log_1a6f0059a2bd9afa",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:07:35.040Z"
+    },
+    {
+      "id": "log_48395121fa7e8a9f",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T15:07:34.994Z"
+    },
+    {
+      "id": "log_63022ed8024e1473",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:23:39.378Z"
+    },
+    {
+      "id": "log_a191ca306450f23f",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:23:39.325Z"
+    },
+    {
+      "id": "log_89efee35f38db58c",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:19:48.740Z"
+    },
+    {
+      "id": "log_b7d4478d0e0f3a5a",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:19:48.703Z"
+    },
+    {
+      "id": "log_cddc47620a5439ef",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:18:13.972Z"
+    },
+    {
+      "id": "log_08a877afb2fe9d1c",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:18:13.922Z"
+    },
+    {
+      "id": "log_006d890163e91e7f",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:05:05.496Z"
+    },
+    {
+      "id": "log_9a142ddb1f407e8c",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T13:05:05.462Z"
+    },
+    {
+      "id": "log_de8b55e925fd178a",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:57:33.837Z"
+    },
+    {
+      "id": "log_28e9ef7be72843ec",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:57:33.796Z"
+    },
+    {
+      "id": "log_8c53b98c8ba9cd48",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:46:39.159Z"
+    },
+    {
+      "id": "log_8009e21393cb9089",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:46:39.121Z"
+    },
+    {
+      "id": "log_549604e02f63c20e",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:22:46.504Z"
+    },
+    {
+      "id": "log_4cfc8f1a6307d5fe",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:22:46.469Z"
+    },
+    {
+      "id": "log_b80890f001a7476f",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:17:03.015Z"
+    },
+    {
+      "id": "log_9d96889b88967749",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:17:02.972Z"
+    },
+    {
+      "id": "log_42fb8d2dbedc0b4e",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:13:36.392Z"
+    },
+    {
+      "id": "log_325699a32f6f204c",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:13:36.359Z"
+    },
+    {
+      "id": "log_f9865e1600c36ba6",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:06:40.398Z"
+    },
+    {
+      "id": "log_733c1dadf426f032",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T12:06:40.363Z"
+    },
+    {
+      "id": "log_4fa30b58ed74c1dd",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:55:50.847Z"
+    },
+    {
+      "id": "log_ee6ea5a44a289e3b",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:55:50.799Z"
+    },
+    {
+      "id": "log_a2b11ece962a10ba",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:53:36.662Z"
+    },
+    {
+      "id": "log_9bc214f3ad7aeeec",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:53:36.629Z"
+    },
+    {
+      "id": "log_cd6261b6fe821004",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:50:03.015Z"
+    },
+    {
+      "id": "log_8f500d27a654e023",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:50:02.971Z"
+    },
+    {
+      "id": "log_2dd20a7bc7aa6d76",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:46:47.610Z"
+    },
+    {
+      "id": "log_06d57d9cc0856d60",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:46:47.574Z"
+    },
+    {
+      "id": "log_077b9bf52287241b",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_SYNC",
+      "ipAddress": "127.0.0.1",
+      "details": "Memicu sinkronisasi manual Newswire secara real-time. Menambahkan 0 artikel siber baru.",
+      "timestamp": "2026-06-11T11:45:51.659Z"
+    },
+    {
+      "id": "log_c20177d5d290960e",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:43:45.062Z"
+    },
+    {
+      "id": "log_4a49a2018224bc67",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-11T11:43:45.030Z"
+    },
+    {
+      "id": "log_8bc01063b78bdf32",
+      "username": "admin",
+      "role": "Admin",
+      "action": "USER_LOGIN",
+      "ipAddress": "127.0.0.1",
+      "details": "Sesi masuk berhasil diotorisasi.",
+      "timestamp": "2026-06-11T11:43:44.862Z"
+    },
+    {
+      "id": "log_22959e342b82ccbb",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-09T11:29:05.981Z"
+    },
+    {
+      "id": "log_4068f8819d113d58",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-09T11:29:05.948Z"
+    },
+    {
+      "id": "log_adb4486c19e13c58",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-09T11:24:02.834Z"
+    },
+    {
+      "id": "log_fe286509f395f6b8",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-09T11:24:02.800Z"
+    },
+    {
+      "id": "log_ce2749ccbdd4a827",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-09T11:21:38.894Z"
+    },
+    {
+      "id": "log_93b90b45b7565a44",
+      "username": "admin",
+      "role": "Admin",
+      "action": "NEWSWIRE_FEED",
+      "ipAddress": "127.0.0.1",
+      "details": "Akses feed intelijen Cyber Threat Newswire.",
+      "timestamp": "2026-06-09T11:21:38.852Z"
+    },
+    {
+      "id": "log_f9ff03b7d302adf5",
+      "username": "admin",
+      "role": "Admin",
+      "action": "USER_LOGIN",
+      "ipAddress": "127.0.0.1",
+      "details": "Sesi masuk berhasil diotorisasi.",
+      "timestamp": "2026-06-09T11:21:38.729Z"
+    },
+    {
+      "id": "log_ba32fc8bfdfbcb1d",
+      "username": "admin",
+      "role": "Admin",
+      "action": "EMAIL_ANALYSIS",
+      "ipAddress": "127.0.0.1",
+      "details": "Menjalankan analisis email rekayasa sosial EML: \"Monthly Security Assessment Checklist Consolidated\". Indikator phishing terhitung: 55% (Medium).",
+      "timestamp": "2026-06-06T15:16:35.852Z"
+    },
+    {
+      "id": "log_5fad340024065912",
+      "username": "admin",
+      "role": "Admin",
+      "action": "IOC_INVESTIGATION",
+      "ipAddress": "127.0.0.1",
+      "details": "Melakukan lookup ancaman IOC: \"b79a2c6ddc0a6904a7306f857de027c5bfac6a46\" (HASH). Tingkat risiko terhitung: 70% (High).",
+      "timestamp": "2026-06-06T15:07:28.643Z"
+    },
+    {
+      "id": "log_a6a037940bbd9fdd",
+      "username": "admin",
+      "role": "Admin",
+      "action": "IOC_INVESTIGATION",
+      "ipAddress": "127.0.0.1",
+      "details": "Melakukan lookup ancaman IOC: \"secure-bank-login-update.com\" (DOMAIN). Tingkat risiko terhitung: 25% (Low).",
+      "timestamp": "2026-06-06T15:06:21.629Z"
+    },
+    {
+      "id": "log_7c9055518213f18f",
+      "username": "admin",
+      "role": "Admin",
+      "action": "IOC_INVESTIGATION",
+      "ipAddress": "127.0.0.1",
+      "details": "Melakukan lookup ancaman IOC: \"secure-bank-login-update.com\" (DOMAIN). Tingkat risiko terhitung: 45% (Medium).",
+      "timestamp": "2026-06-06T15:05:24.709Z"
+    },
+    {
+      "id": "log_322bb06104324840",
+      "username": "admin",
+      "role": "Admin",
+      "action": "IOC_INVESTIGATION",
+      "ipAddress": "127.0.0.1",
+      "details": "Melakukan lookup ancaman IOC: \"b79a2c6ddc0a6904a7306f857de027c5bfac6a46\" (HASH). Tingkat risiko terhitung: 70% (High).",
+      "timestamp": "2026-06-06T14:55:33.703Z"
+    },
+    {
+      "id": "log_2c053b2c2eb88750",
+      "username": "admin",
+      "role": "Admin",
+      "action": "IOC_INVESTIGATION",
+      "ipAddress": "127.0.0.1",
+      "details": "Melakukan lookup ancaman IOC: \"135.181.224.72\" (IP). Tingkat risiko terhitung: 45% (Medium).",
+      "timestamp": "2026-06-06T14:52:53.790Z"
+    },
+    {
+      "id": "log_b58693e2f48c6aad",
+      "username": "admin",
+      "role": "Admin",
+      "action": "IOC_INVESTIGATION",
+      "ipAddress": "127.0.0.1",
+      "details": "Melakukan lookup ancaman IOC: \"185.220.101.5\" (IP). Tingkat risiko terhitung: 85% (Critical).",
+      "timestamp": "2026-06-06T14:49:49.430Z"
+    },
+    {
+      "id": "log_790a6355912df38f",
+      "username": "admin",
+      "role": "Admin",
+      "action": "AUDIT_LOG_DELETED",
+      "ipAddress": "182.253.48.85, 169.254.169.126",
+      "details": "Menghapus 21 catatan log audit.",
+      "timestamp": "2026-06-06T14:42:40.630Z"
+    }
+  ],
+  "investigations": [
+    {
+      "id": "eml_92lxar51d",
+      "ioc": "Email Analysis: Monthly Security Assessment Checklist Consolidated",
+      "type": "URL",
+      "timestamp": "2026-06-06T15:16:35.851Z",
+      "threatIntel": {
+        "reputation": "Clean",
+        "urlhausDetection": false,
+        "otxPulseCount": 0
+      },
+      "riskScore": 55,
+      "severity": "Medium",
+      "reasons": [
+        "Lampiran Email: Kecocokan file hash berbahaya terdeteksi pada MalwareBazaar."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis digital mengidentifikasi serangan phishing canggih yang menyamar sebagai departemen keamanan internal dengan menggunakan alamat pengirim manipulatif admin-alert@google.com. Meskipun hasil autentikasi SPF, DKIM, dan DMARC menunjukkan status 'PASS'—yang mengindikasikan kemungkinan adanya eksploitasi pada layanan Google yang sah atau kompromi akun—analisis mendalam mendeteksi lampiran berbahaya 'security_assessment_whitepaper.pdf'. Taktik rekayasa sosial memanfaatkan kepatuhan kepatuhan keamanan ('Monthly Security Assessment Checklist Consolidated') untuk memaksa korban membuka dokumen. Serangan ini tidak menggunakan tautan (URL) eksternal di badan email, melainkan sepenuhnya mengandalkan eksekusi lampiran PDF berbahaya untuk mengirimkan malware AgentTesla guna mencuri data sensitif korban.",
+        "threatAssessment": "Tingkat ancaman dikategorikan sebagai KRITIS (CRITICAL). Lampiran PDF yang disertakan telah teridentifikasi secara positif mengandung Trojan.AgentTesla, sebuah trojan pencuri informasi (information stealer) yang sangat aktif. Jika pengguna membuka dan mengeksekusi lampiran ini, malware akan memanen kredensial yang tersimpan di browser, mencuri data dari klien email, melakukan keylogging, dan mengambil tangkapan layar, lalu mengirimkannya ke server Command and Control (C2) milik penyerang. Dampak operasional meliputi potensi kompromi kredensial administratif, kebocoran data sensitif, dan risiko penetrasi jaringan lebih lanjut.",
+        "recommendedActions": [
+          "Langkah 1: Lakukan pencarian darurat dan penghapusan (Purge/Hard Delete) secara menyeluruh pada seluruh kotak surat (mailbox) organisasi untuk email dengan subjek 'Monthly Security Assessment Checklist Consolidated' atau pengirim 'admin-alert@google.com'.",
+          "Langkah 2: Ambil nilai hash (MD5/SHA256) dari file lampiran 'security_assessment_whitepaper.pdf' dan masukkan ke dalam daftar blokir (blocklist) pada solusi Endpoint Detection and Response (EDR) serta sistem keamanan email (Email Gateway) organisasi.",
+          "Langkah 3: Identifikasi seluruh pengguna yang sempat membuka atau mengunduh lampiran tersebut, segera isolasi host/perangkat mereka dari jaringan, lakukan pemindaian malware mendalam, serta lakukan reset kredensial wajib untuk semua akun yang diakses dari perangkat yang terdampak."
+        ]
+      }
+    },
+    {
+      "id": "rec_3qitqan64",
+      "ioc": "b79a2c6ddc0a6904a7306f857de027c5bfac6a46",
+      "type": "HASH",
+      "timestamp": "2026-06-06T15:07:17.781Z",
+      "threatIntel": {
+        "country": "N/A",
+        "countryCode": "XX",
+        "asn": "N/A",
+        "organization": "N/A",
+        "otxPulseCount": 0,
+        "reputation": "Conflicting Intelligence Sources",
+        "domainAge": "N/A",
+        "dnsInfo": {
+          "a": [],
+          "mx": [],
+          "txt": [],
+          "ns": []
+        },
+        "urlscanResult": {
+          "screenshot": "https://urlscan.io/images/placeholder.png",
+          "server": "N/A",
+          "mimeType": "application/x-msdownload",
+          "effectiveUrl": "N/A"
+        },
+        "redirectCount": 0,
+        "malwareBazaarMatch": true,
+        "malwareFamily": "AgentTesla",
+        "vtMalicious": 26,
+        "vtTotal": 69,
+        "activeIntegrations": {
+          "abuseipdb": true,
+          "virustotal": true,
+          "alienvault": true,
+          "urlhaus": true,
+          "malwarebazaar": true
+        },
+        "conflictingSources": [
+          "VirusTotal (Verdicts: 26/69 Malicious)",
+          "AlienVault OTX (0 Pulses)",
+          "MalwareBazaar (Malicious Match)"
+        ],
+        "reason": "Conflicting intelligence sources detected between active verification providers."
+      },
+      "riskScore": 70,
+      "severity": "High",
+      "reasons": [
+        "Kecocokan tanda tangan file hash terdeteksi pada basis data MalwareBazaar (+50).",
+        "File tergolong ke dalam klasifikasi komponen malware: AgentTesla."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis mendeteksi kontradiksi data intelijen keamanan (Conflicting Intelligence Sources) pada beberapa feed aktif. Sumber: VirusTotal (Verdicts: 26/69 Malicious), AlienVault OTX (0 Pulses), MalwareBazaar (Malicious Match).",
+        "threatAssessment": "Terjadi perbedaan kualifikasi kepatuhan ancaman. Sebagian basis data mencatat indikator ini berbahaya, sementara yang lain tidak mendeteksi aktivitas mencurigakan.",
+        "recommendedActions": [
+          "Lakukan analisis mendalam secara manual pada log firewall internal untuk memverifikasi aktivitas koneksi.",
+          "Bandingkan data telemetri tambahan dari endpoint protection sebelum mengambil keputusan pemblokiran massal.",
+          "Monitor anomali komunikasi data guna meminimalkan risiko false positive pada perimeter pertahanan."
+        ]
+      }
+    },
+    {
+      "id": "rec_a92i0i1vc",
+      "ioc": "secure-bank-login-update.com",
+      "type": "DOMAIN",
+      "timestamp": "2026-06-06T15:05:59.970Z",
+      "threatIntel": {
+        "country": "United States",
+        "countryCode": "US",
+        "asn": "AS13335",
+        "organization": "Cloudflare, Inc.",
+        "otxPulseCount": 0,
+        "reputation": "Clean",
+        "domainAge": "12 days ago",
+        "dnsInfo": {
+          "a": [
+            "104.21.78.23",
+            "172.67.185.110"
+          ],
+          "mx": [
+            "route1.mx.cloudflare.net",
+            "route2.mx.cloudflare.net"
+          ],
+          "txt": [
+            "v=spf1 include:_spf.mx.cloudflare.net ~all"
+          ],
+          "ns": [
+            "dana.ns.cloudflare.com",
+            "kurt.ns.cloudflare.com"
+          ]
+        },
+        "urlhausDetection": false,
+        "urlscanResult": {
+          "screenshot": "https://urlscan.io/images/placeholder.png",
+          "server": "cloudflare",
+          "mimeType": "text/html",
+          "effectiveUrl": "https://secure-bank-login-update.com/"
+        },
+        "redirectCount": 0,
+        "vtMalicious": 0,
+        "vtTotal": 91,
+        "activeIntegrations": {
+          "abuseipdb": true,
+          "virustotal": true,
+          "alienvault": true,
+          "urlhaus": true,
+          "malwarebazaar": true
+        }
+      },
+      "riskScore": 25,
+      "severity": "Low",
+      "reasons": [
+        "Domain baru saja didaftarkan (12 days ago) - taktik umum serangan social engineering."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis mendalam terhadap indikator domain 'secure-bank-login-update.com' menunjukkan status bersih pada mesin deteksi utama saat ini. Berdasarkan integrasi data real-time, VirusTotal melaporkan 0 dari 91 mesin yang mendeteksi ancaman (0/91), dan tidak ada rekaman pulse aktif di AlienVault OTX (0 pulses). Meskipun nama domain ini menggunakan teknik typosquatting yang sangat mencurigakan dan meniru alur pembaruan login bank aman, belum ada aktivitas berbahaya aktif yang terdeteksi di URLHaus maupun MalwareBazaar.",
+        "threatAssessment": "Meskipun reputasi saat ini diklasifikasikan sebagai 'Clean' (Bersih), domain ini dinilai memiliki risiko laten tinggi karena penamaannya yang secara eksplisit mengindikasikan persiapan serangan phishing atau pencurian kredensial (credential harvesting). Infrastruktur ini kemungkinan besar baru didaftarkan atau sedang dalam fase pasif (dormant) sebelum digunakan dalam serangan rekayasa sosial.",
+        "recommendedActions": [
+          "Terapkan kebijakan blokir preventif atau pemantauan ketat (sinkholing) pada DNS resolver internal untuk domain 'secure-bank-login-update.com' guna mengantisipasi jika domain tersebut aktif secara tiba-tiba.",
+          "Lakukan perburuan ancaman (threat hunting) pada log proxy dan firewall untuk mendeteksi apakah ada aset internal yang mencoba melakukan koneksi keluar ke domain ini dalam 30 hari terakhir.",
+          "Perbarui aturan deteksi SIEM untuk memantau pendaftaran domain baru yang menggunakan kombinasi kata kunci sensitif perbankan seperti 'secure', 'bank', dan 'login'."
+        ]
+      }
+    },
+    {
+      "id": "rec_reznu1ili",
+      "ioc": "b79a2c6ddc0a6904a7306f857de027c5bfac6a46",
+      "type": "HASH",
+      "timestamp": "2026-06-06T14:55:21.715Z",
+      "threatIntel": {
+        "country": "N/A",
+        "countryCode": "N/A",
+        "asn": "N/A",
+        "organization": "N/A",
+        "otxPulseCount": 0,
+        "reputation": "Conflicting Intelligence Sources",
+        "domainAge": "N/A",
+        "dnsInfo": {
+          "a": [],
+          "mx": [],
+          "txt": [],
+          "ns": []
+        },
+        "urlscanResult": {
+          "screenshot": "https://urlscan.io/images/placeholder.png",
+          "server": "N/A",
+          "mimeType": "application/x-dosexec",
+          "effectiveUrl": "N/A"
+        },
+        "redirectCount": 0,
+        "malwareBazaarMatch": true,
+        "malwareFamily": "AgentTesla",
+        "vtMalicious": 26,
+        "vtTotal": 69,
+        "activeIntegrations": {
+          "abuseipdb": true,
+          "virustotal": true,
+          "alienvault": true,
+          "urlhaus": true,
+          "malwarebazaar": true
+        },
+        "conflictingSources": [
+          "VirusTotal (Verdicts: 26/69 Malicious)",
+          "AlienVault OTX (0 Pulses)",
+          "MalwareBazaar (Malicious Match)"
+        ],
+        "reason": "Conflicting intelligence sources detected between active verification providers."
+      },
+      "riskScore": 70,
+      "severity": "High",
+      "reasons": [
+        "Kecocokan tanda tangan file hash terdeteksi pada basis data MalwareBazaar (+50).",
+        "File tergolong ke dalam klasifikasi komponen malware: AgentTesla."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis mendeteksi kontradiksi data intelijen keamanan (Conflicting Intelligence Sources) pada beberapa feed aktif. Sumber: VirusTotal (Verdicts: 26/69 Malicious), AlienVault OTX (0 Pulses), MalwareBazaar (Malicious Match).",
+        "threatAssessment": "Terjadi perbedaan kualifikasi kepatuhan ancaman. Sebagian basis data mencatat indikator ini berbahaya, sementara yang lain tidak mendeteksi aktivitas mencurigakan.",
+        "recommendedActions": [
+          "Lakukan analisis mendalam secara manual pada log firewall internal untuk memverifikasi aktivitas koneksi.",
+          "Bandingkan data telemetri tambahan dari endpoint protection sebelum mengambil keputusan pemblokiran massal.",
+          "Monitor anomali komunikasi data guna meminimalkan risiko false positive pada perimeter pertahanan."
+        ]
+      }
+    },
+    {
+      "id": "rec_avtuuoqgz",
+      "ioc": "135.181.224.72",
+      "type": "IP",
+      "timestamp": "2026-06-06T14:52:44.614Z",
+      "threatIntel": {
+        "abuseScore": 0,
+        "country": "Finland",
+        "countryCode": "FI",
+        "asn": "AS24940",
+        "organization": "Hetzner Online GmbH",
+        "otxPulseCount": 2,
+        "reputation": "Conflicting Intelligence Sources",
+        "domainAge": "N/A",
+        "dnsInfo": {
+          "a": [
+            "135.181.224.72"
+          ],
+          "mx": [],
+          "txt": [],
+          "ns": []
+        },
+        "urlscanResult": {
+          "screenshot": "https://urlscan.io/images/placeholder.png",
+          "server": "nginx",
+          "mimeType": "text/html",
+          "effectiveUrl": "http://135.181.224.72/"
+        },
+        "redirectCount": 0,
+        "vtMalicious": 3,
+        "vtTotal": 91,
+        "activeIntegrations": {
+          "abuseipdb": true,
+          "virustotal": true,
+          "alienvault": true,
+          "urlhaus": true,
+          "malwarebazaar": true
+        },
+        "conflictingSources": [
+          "AbuseIPDB (Abuse Score: 0%)",
+          "VirusTotal (Verdicts: 3/91 Malicious)",
+          "AlienVault OTX (2 Pulses)"
+        ],
+        "reason": "Conflicting intelligence sources detected between active verification providers."
+      },
+      "riskScore": 45,
+      "severity": "Medium",
+      "reasons": [
+        "IP Address terdaftar dalam basis data indikator ancaman standar (pulse OTX 2).",
+        "Threat Intelligence feed mengategorikan reputasi IP Address sebagai berbahaya (Malicious)."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis mendeteksi kontradiksi data intelijen keamanan (Conflicting Intelligence Sources) pada beberapa feed aktif. Sumber: AbuseIPDB (Abuse Score: 0%), VirusTotal (Verdicts: 3/91 Malicious), AlienVault OTX (2 Pulses).",
+        "threatAssessment": "Terjadi perbedaan kualifikasi kepatuhan ancaman. Sebagian basis data mencatat indikator ini berbahaya, sementara yang lain tidak mendeteksi aktivitas mencurigakan.",
+        "recommendedActions": [
+          "Lakukan analisis mendalam secara manual pada log firewall internal untuk memverifikasi aktivitas koneksi.",
+          "Bandingkan data telemetri tambahan dari endpoint protection sebelum mengambil keputusan pemblokiran massal.",
+          "Monitor anomali komunikasi data guna meminimalkan risiko false positive pada perimeter pertahanan."
+        ]
+      }
+    },
+    {
+      "id": "rec_2ookikthp",
+      "ioc": "185.220.101.5",
+      "type": "IP",
+      "timestamp": "2026-06-06T14:49:38.465Z",
+      "threatIntel": {
+        "abuseScore": 100,
+        "country": "Germany",
+        "countryCode": "DE",
+        "asn": "AS200651",
+        "organization": "Stiftung Erneuerbare Freiheit",
+        "otxPulseCount": 50,
+        "reputation": "Malicious",
+        "domainAge": "N/A",
+        "dnsInfo": {
+          "a": [],
+          "mx": [],
+          "txt": [],
+          "ns": []
+        },
+        "urlscanResult": {
+          "screenshot": "https://urlscan.io/images/placeholder.png",
+          "server": "N/A",
+          "mimeType": "N/A",
+          "effectiveUrl": "N/A"
+        },
+        "redirectCount": 0,
+        "vtMalicious": 10,
+        "vtTotal": 91,
+        "activeIntegrations": {
+          "abuseipdb": true,
+          "virustotal": true,
+          "alienvault": true,
+          "urlhaus": true,
+          "malwarebazaar": true
+        }
+      },
+      "riskScore": 85,
+      "severity": "Critical",
+      "reasons": [
+        "Skor AbuseIPDB untuk IP Address sangat kritis (100%).",
+        "IP Address ditandai dalam beberapa aktivitas aktif (pulse OTX 50).",
+        "Threat Intelligence feed mengategorikan reputasi IP Address sebagai berbahaya (Malicious)."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis teknis mengonfirmasi bahwa alamat IP 185.220.101.5 merupakan Tor Exit Node aktif yang dioperasikan oleh organisasi 'Stiftung Erneuerbare Freiheit' di Jerman (DE). Data integrasi real-time menunjukkan reputasi buruk dengan Abuse Score mencapai 100% pada AbuseIPDB, serta dideteksi sebagai entitas berbahaya oleh 10 dari 91 mesin pemindai di VirusTotal (10/91). Selain itu, IP ini terasosiasi dengan 50 pulses di AlienVault OTX, menunjukkan keterlibatan aktif dalam berbagai aktivitas pemindaian massal, upaya brute force, atau aktivitas pengabaian sensor keamanan oleh pelaku ancaman.",
+        "threatAssessment": "IP ini bertindak sebagai pintu keluar jaringan Tor, yang berarti lalu lintas yang berasal dari IP ini sangat anonim dan sering disalahgunakan untuk menyembunyikan identitas penyerang. Dampak taktisnya dikategorikan tinggi jika terdeteksi interaksi aktif dengan aset internal perusahaan, karena berpotensi menjadi jalur eksfiltrasi data, pemindaian kerentanan tanpa izin, atau upaya bypass autentikasi.",
+        "recommendedActions": [
+          "Lakukan pemblokiran segera (blacklisting) terhadap IP 185.220.101.5 pada perimeter Firewall, IPS/IDS, dan Web Application Firewall (WAF) perusahaan.",
+          "Lakukan kueri pencarian (threat hunting) di SIEM untuk mengidentifikasi adanya lalu lintas keluar (outbound) atau masuk (inbound) yang melibatkan IP ini dalam kurun waktu 30 hari terakhir.",
+          "Terapkan feeds Threat Intelligence otomatis untuk memblokir seluruh daftar Tor Exit Node yang diperbarui secara dinamis, guna mencegah serangan anonim di masa mendatang."
+        ]
+      }
+    },
+    {
+      "id": "rec_err",
+      "ioc": "f3810a454079c2c50f9d0fabc6e353090c45e301",
+      "type": "HASH",
+      "timestamp": "2026-06-06T14:04:04.905Z",
+      "threatIntel": {
+        "activeIntegrations": {
+          "abuseipdb": true,
+          "virustotal": true,
+          "alienvault": true,
+          "urlhaus": true,
+          "malwarebazaar": true
+        },
+        "reputation": "Conflicting Intelligence Sources",
+        "vtMalicious": 52,
+        "vtTotal": 71,
+        "otxPulseCount": 0,
+        "conflictingSources": [
+          "VirusTotal (Verdicts: 52/71 Malicious)",
+          "AlienVault OTX (0 Pulses)"
+        ],
+        "reason": "Conflicting intelligence sources detected between active verification providers."
+      },
+      "riskScore": 45,
+      "severity": "Medium",
+      "reasons": [
+        "Timeout internal saat menanyakan indikator cloud, diterapkan risiko standar default"
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis mendeteksi kontradiksi data intelijen keamanan (Conflicting Intelligence Sources) pada beberapa feed aktif. Sumber: VirusTotal (Verdicts: 52/71 Malicious), AlienVault OTX (0 Pulses).",
+        "threatAssessment": "Terjadi perbedaan kualifikasi kepatuhan ancaman. Sebagian basis data mencatat indikator ini berbahaya, sementara yang lain tidak mendeteksi aktivitas mencurigakan.",
+        "recommendedActions": [
+          "Lakukan analisis mendalam secara manual pada log firewall internal untuk memverifikasi aktivitas koneksi.",
+          "Bandingkan data telemetri tambahan dari endpoint protection sebelum mengambil keputusan pemblokiran massal.",
+          "Monitor anomali komunikasi data guna meminimalkan risiko false positive pada perimeter pertahanan."
+        ]
+      }
+    },
+    {
+      "id": "rec_8w490lbsg",
+      "ioc": "f3810a454079c2c50f9d0fabc6e353090c45e301",
+      "type": "HASH",
+      "timestamp": "2026-06-06T13:55:14.175Z",
+      "threatIntel": {
+        "abuseScore": 95,
+        "country": "N/A",
+        "countryCode": "N/A",
+        "asn": "N/A",
+        "organization": "N/A",
+        "otxPulseCount": 0,
+        "reputation": "Conflicting Intelligence Sources",
+        "domainAge": "N/A",
+        "dnsInfo": {
+          "a": [],
+          "mx": [],
+          "txt": [],
+          "ns": []
+        },
+        "urlhausDetection": false,
+        "urlscanResult": {
+          "screenshot": "https://urlscan.io/images/placeholder.png",
+          "server": "N/A",
+          "mimeType": "application/x-dosexec",
+          "effectiveUrl": "N/A"
+        },
+        "redirectCount": 0,
+        "malwareBazaarMatch": true,
+        "malwareFamily": "AgentTesla",
+        "conflictingSources": [
+          "AlienVault OTX (0 Pulses)",
+          "MalwareBazaar (Malicious Match)"
+        ],
+        "reason": "Conflicting intelligence sources detected between active verification providers."
+      },
+      "riskScore": 70,
+      "severity": "High",
+      "reasons": [
+        "Kecocokan tanda tangan file hash terdeteksi pada basis data MalwareBazaar (+50).",
+        "File tergolong ke dalam klasifikasi komponen malware: AgentTesla."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis mendeteksi kontradiksi data intelijen keamanan (Conflicting Intelligence Sources) pada beberapa feed aktif. Sumber: AlienVault OTX (0 Pulses), MalwareBazaar (Malicious Match).",
+        "threatAssessment": "Terjadi perbedaan kualifikasi kepatuhan ancaman. Sebagian basis data mencatat indikator ini berbahaya, sementara yang lain tidak mendeteksi aktivitas mencurigakan.",
+        "recommendedActions": [
+          "Lakukan analisis mendalam secara manual pada log firewall internal untuk memverifikasi aktivitas koneksi.",
+          "Bandingkan data telemetri tambahan dari endpoint protection sebelum mengambil keputusan pemblokiran massal.",
+          "Monitor anomali komunikasi data guna meminimalkan risiko false positive pada perimeter pertahanan."
+        ]
+      }
+    },
+    {
+      "id": "rec_y2fd8ooz1",
+      "ioc": "f3810a454079c2c50f9d0fabc6e353090c45e301",
+      "type": "HASH",
+      "timestamp": "2026-06-06T13:49:53.706Z",
+      "threatIntel": {
+        "abuseScore": 95,
+        "country": "N/A",
+        "countryCode": "N/A",
+        "asn": "N/A",
+        "organization": "N/A",
+        "otxPulseCount": 14,
+        "reputation": "Malicious",
+        "domainAge": "N/A",
+        "dnsInfo": {
+          "a": [],
+          "mx": [],
+          "txt": [],
+          "ns": []
+        },
+        "urlhausDetection": false,
+        "urlscanResult": {
+          "screenshot": "https://urlscan.io/images/placeholder.png",
+          "server": "N/A",
+          "mimeType": "application/x-dosexec",
+          "effectiveUrl": "N/A"
+        },
+        "redirectCount": 0,
+        "malwareBazaarMatch": true,
+        "malwareFamily": "AgentTesla"
+      },
+      "riskScore": 90,
+      "severity": "Critical",
+      "reasons": [
+        "Kecocokan tanda tangan file hash terdeteksi pada basis data MalwareBazaar (+50).",
+        "File tergolong ke dalam klasifikasi komponen malware: Qakbot.",
+        "File hash terdaftar dalam 14 pulse kritis AlienVault OTX."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Analisis Threat Intelligence menunjukkan bahwa hash SHA-1 f3810a454079c2c50f9d0fabc6e353090c45e301 diidentifikasi sebagai file biner berbahaya yang terkait dengan malware Qakbot (Qbot). Berkas ini umumnya berupa pustaka tautan dinamis (DLL) atau executable yang dikirimkan melalui lampiran email phishing (malspam). Setelah dieksekusi di lingkungan target, berkas ini melakukan injeksi kode ke dalam proses sistem yang sah seperti wermgr.exe atau explorer.exe untuk menghindari deteksi dari solusi antivirus konvensional.",
+        "threatAssessment": "Ancaman ini dinilai berkategori kritis dan berisiko tinggi. Qakbot sering digunakan sebagai metode infeksi awal yang memfasilitasi pengiriman ransomware (seperti BlackBasta atau LockBit). Kehadiran hash ini menunjukkan adanya aktivitas kompromi aktif yang dapat menyebabkan pencurian kredensial akun, pengintaian internal jaringan (network reconnaissance), pergerakan lateral, dan potensi pengambilalihan seluruh domain Active Directory.",
+        "recommendedActions": [
+          "Isolasi segera endpoint atau host yang terindikasi menjalankan berkas dengan hash ini dari jaringan internal untuk mencegah penyebaran lebih lanjut.",
+          "Lakukan penghentian proses (kill process) mencurigakan yang terkait dan bersihkan entri persistensi pada sistem, termasuk scheduled tasks atau registry keys yang merujuk pada direktori temp pengguna.",
+          "Audit log koneksi jaringan eksternal dan DNS pada kurun waktu terkait untuk mengidentifikasi upaya komunikasi ke alamat IP Command & Control (C2) Qakbot, serta lakukan pemulihan kredensial (password reset) massal pada akun yang diakses dari host terinfeksi."
+        ]
+      }
+    },
+    {
+      "id": "rec_1",
+      "ioc": "185.220.101.5",
+      "type": "IP",
+      "timestamp": "2026-06-06T09:41:05.301Z",
+      "threatIntel": {
+        "abuseScore": 88,
+        "country": "Germany",
+        "countryCode": "DE",
+        "asn": "AS206349",
+        "organization": "Tor Exit Node Network",
+        "otxPulseCount": 14,
+        "reputation": "Malicious"
+      },
+      "riskScore": 85,
+      "severity": "High",
+      "reasons": [
+        "AbuseIPDB Score di atas 80% (tercatat 88%)",
+        "IP Address aktif teridentifikasi sebagai Tor Exit Node.",
+        "IP Address terdaftar dalam beberapa AlienVault OTX pulse (14 pulse terdeteksi)."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Hasil analisis mengonfirmasi IP Address ini sebagai Tor Exit Node aktif yang terindikasi melakukan upaya credential stuffing serta pemindaian port otomatis.",
+        "threatAssessment": "Aktivitas dari IP Address ini menunjukkan risiko tinggi karena penyerang umumnya menggunakan Tor Exit Node untuk menyembunyikan lalu lintas command & control (C2) atau pengintaian awal secara anonim.",
+        "recommendedActions": [
+          "Konfigurasikan kebijakan pemblokiran lalu lintas masuk (ingress) pada perimeter firewall untuk IP Address 185.220.101.5.",
+          "Jalankan query pencarian pada SIEM untuk mengidentifikasi riwayat interaksi perangkat hos internal dengan IP Address terkait dalam 30 hari terakhir.",
+          "Integrasikan repositori threat feeds untuk kategori Tor Nodes guna otomatisasi tindakan mitigasi preventif di masa mendatang."
+        ]
+      }
+    },
+    {
+      "id": "rec_2",
+      "ioc": "secure-bank-login-update.com",
+      "type": "DOMAIN",
+      "timestamp": "2026-06-05T19:41:05.301Z",
+      "threatIntel": {
+        "reputation": "Malicious",
+        "otxPulseCount": 8,
+        "domainAge": "3 days ago",
+        "dnsInfo": {
+          "a": [
+            "104.21.36.108",
+            "172.67.142.201"
+          ],
+          "mx": [
+            "0 mail.secure-bank-login-update.com"
+          ],
+          "txt": [
+            "v=spf1 include:_spf.google.com ~all"
+          ],
+          "ns": [
+            "clara.ns.cloudflare.com",
+            "ian.ns.cloudflare.com"
+          ]
+        }
+      },
+      "riskScore": 95,
+      "severity": "Critical",
+      "reasons": [
+        "Domain baru dibuat kurang dari 7 hari (tercatat 3 hari yang lalu).",
+        "Kecocokan indikator impersonation merek terhadap portal login institusi keuangan.",
+        "Domain teridentifikasi sebagai tujuan spear-phishing dalam 8 pulse AlienVault OTX."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Domain Phishing URL teridentifikasi sebagai halaman pencurian kredensial (credential harvesting) yang menyerupai portal masuk perbankan resmi, dideploy menggunakan Cloudflare proxy untuk menghindari deteksi reputasi berbasis IP.",
+        "threatAssessment": "Aktivitas spear-phishing terarah dengan probabilitas keberhasilan tinggi, dirancang untuk mengelabui pengguna internal agar memasukkan kredensial autentikasi ganda.",
+        "recommendedActions": [
+          "Terapkan DNS sinkhole atau blokir resolusi nama domain secure-bank-login-update.com secara menyeluruh.",
+          "Identifikasi dan lakukan pencabutan paksa (force sign-out) semua sesi login aktif pada Active Directory bagi pengguna yang sempat mengakses domain ini.",
+          "Kirimkan laporan penyalahgunaan (abuse report) ke penyedia registrar dan Cloudflare untuk menonaktifkan resolusi domain tersebut."
+        ]
+      }
+    },
+    {
+      "id": "rec_3",
+      "ioc": "e2fc714c4727ee9395f3aba42badc0cd",
+      "type": "HASH",
+      "timestamp": "2026-06-04T13:41:05.301Z",
+      "threatIntel": {
+        "malwareBazaarMatch": true,
+        "malwareFamily": "WannaCry Ransomware",
+        "otxPulseCount": 37,
+        "reputation": "Malicious"
+      },
+      "riskScore": 100,
+      "severity": "Critical",
+      "reasons": [
+        "Hash cocok dengan sampel malware di MalwareBazaar.",
+        "Diidentifikasi sebagai muatan Ransomware WannaCry aktif.",
+        "Teridentifikasi dalam 37 pulse ancaman aktif pada AlienVault OTX."
+      ],
+      "aiSummary": {
+        "investigationSummary": "Berkas biner ini terkonfirmasi sebagai varian Ransomware WannaCry, yang mengeksploitasi kerentanan MS17-010 EternalBlue untuk melakukan propagasi mandiri (lateral movement) di dalam jaringan.",
+        "threatAssessment": "Dampak tingkat keparahan kritis. Keberadaan berkas aktif ini mengindikasikan kompromi jaringan yang membutuhkan isolasi segera sebelum proses enkripsi merusak sistem secara massal.",
+        "recommendedActions": [
+          "Isolasi perangkat yang terinfeksi dari segmen jaringan internal (LAN) secepatnya.",
+          "Lakukan audit kepatuhan patch MS17-010 di seluruh infrastruktur hos penunjang untuk menutup celah propagasi ransomware.",
+          "Verifikasi status backup data terisolasi, jalankan protokol Incident Response, dan lakukan instalasi ulang sistem operasi pada perangkat yang terdampak."
+        ]
+      }
+    }
+  ],
+  "feedNews": [
+    {
+      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+      "description": "Celah keamanan kritis netfilter nf_tables use-after-free (CVE-2026-1086) memungkinkan pengguna lokal tanpa hak istimewa mengeksploitasi sistem operasi Linux untuk naik tingkat menjadi root dan meloloskan diri dari isolasi container.",
+      "source": "NIST NVD & Red Hat",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-1086",
+      "published": "2026-03-27",
+      "time": "1h ago",
+      "tags": "Vulnerability",
+      "sentiment": "Critical",
+      "timestamp": 1781163442174,
+      "id": 20309
+    },
+    {
+      "title": "Malicious PyPI Packages Spark 'Rustybobs' Supply Chain Attack Targeting IT Firms",
+      "description": "Rantai pasokan Python (PyPI) bernama Rustybobs teridentifikasi menyebarkan paket pustaka palsu berisi kode berbahaya berupa pengunduh file biner untuk mencuri kredensial pengembang secara tidak sah.",
+      "source": "Python Security Team",
+      "url": "https://pypi.org",
+      "published": "2026-04-12",
+      "time": "4h ago",
+      "tags": "Malware",
+      "sentiment": "Critical",
+      "timestamp": 1781091442237,
+      "id": 12896
+    },
+    {
+      "title": "Cisco Warns of Active Zero-Day Exploitation of IOS XE Software Web UI",
+      "description": "Cisco mengeluarkan peringatan terkait eksploitasi aktif terhadap kerentanan eskalasi hak istimewa kritis pada fitur Web UI perangkat lunak IOS XE (CVE-2023-20198).",
+      "source": "Cisco PSIRT Advisory",
+      "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-webui-privesc-byoleC92",
+      "published": "2026-05-18",
+      "time": "8h ago",
+      "tags": "Vulnerability",
+      "sentiment": "Critical",
+      "timestamp": 1781005042267,
+      "id": 22105
+    },
+    {
+      "title": "Palo Alto Networks Urges Immediate Action to Patch Critical Expedition Vulnerability",
+      "description": "Produsen sistem keamanan siber Palo Alto Networks mendesak pengguna segera menambal kerentanan bypass otentikasi kritis pada modul utilitas migrasi Expedition (CVE-2026-5910).",
+      "source": "Palo Alto Networks Unit 42",
+      "url": "https://security.paloaltonetworks.com/CVE-2024-5910",
+      "published": "2026-06-02",
+      "time": "1d ago",
+      "tags": "Vulnerability",
+      "sentiment": "Critical",
+      "timestamp": 1780918642302,
+      "id": 52540
+    },
+    {
+      "title": "LockBit Ransomware Group Returns with New Servers and Modified Encryption Payloads",
+      "description": "Meskipun sempat dilumpuhkan oleh operasi kepolisian internasional (Operation Cronos), grup ransomware LockBit berhasil memulihkan server kebocoran data mereka dan kembali merilis payload enkripsi baru.",
+      "source": "CISA Cybersecurity Advisories",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "published": "2026-06-10",
+      "time": "2d ago",
+      "tags": "Ransomware",
+      "sentiment": "High Risk",
+      "timestamp": 1780832242713,
+      "id": 17064
+    }
+  ],
+  "feedMetadata": {
+    "lastUpdated": "2026-06-13T07:12:59.535Z",
+    "nextSync": "2026-06-13T08:12:59.535Z"
+  }
+}

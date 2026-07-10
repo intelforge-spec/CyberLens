@@ -1,0 +1,6 @@
+{
+  "name": "CyberLens",
+  "description": "Advanced SOC Investigation and Phishing Email Analysis Platform",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
