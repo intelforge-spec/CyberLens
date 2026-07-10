@@ -1,4 +1,4 @@
-# 🛡️ CyberLens
+  # 🛡️ CyberLens
 
 **CyberLens** is an AI-powered Security Operations Center (SOC) and Threat Intelligence platform designed to help security teams detect, investigate, and respond to cyber threats from a single unified dashboard.
 
@@ -125,29 +125,6 @@ The platform integrates threat intelligence, IOC analysis, email analysis, AI-as
 <img width="1361" height="589" alt="image" src="https://github.com/user-attachments/assets/7bb0fefc-3b54-46bf-ae47-6631227422e5" />
 <img width="1359" height="594" alt="image" src="https://github.com/user-attachments/assets/8c450524-94c0-4348-a798-00f2b8da038f" />
 
-
----
-
-# 🗺️ Roadmap
-
-- [x] Dashboard
-- [x] Authentication
-- [x] User Management
-- [x] AI Assistant
-- [x] IOC Analyzer
-- [x] Threat Intelligence
-- [ ] Malware Analysis
-- [ ] Sandbox Integration
-- [ ] SIEM Integration
-- [ ] VirusTotal Integration
-- [ ] AbuseIPDB Integration
-- [ ] Shodan Integration
-- [ ] MISP Integration
-- [ ] Sigma Rule Engine
-- [ ] YARA Rule Scanner
-- [ ] Detection Engineering
-- [ ] SOAR Automation
-- [ ] MITRE ATT&CK Navigator
 
 ---
 
