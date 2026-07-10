@@ -121,8 +121,10 @@ The platform integrates threat intelligence, IOC analysis, email analysis, AI-as
 ---
 
 # 📸 Screenshots
+<img width="1364" height="595" alt="image" src="https://github.com/user-attachments/assets/6dfe2161-ff9d-4c1b-bc99-642efc09dee0" />
+<img width="1361" height="589" alt="image" src="https://github.com/user-attachments/assets/7bb0fefc-3b54-46bf-ae47-6631227422e5" />
+<img width="1359" height="594" alt="image" src="https://github.com/user-attachments/assets/8c450524-94c0-4348-a798-00f2b8da038f" />
 
-> Screenshots will be added soon.
 
 ---
 
